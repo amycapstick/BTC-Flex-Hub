@@ -29,6 +29,21 @@ This project was a collaboration by:
 * [Brody Brown](https://github.com/Bbrown41)
 * Matthew Caponigro
 
+### Roles:
+* Amy Capstick
+    * Front End (HTML, CSS, Bootstrap) 
+    * Design
+    * Mockups/Wireframes
+
+* Brody Brown
+    * Back End (PHP, Database)
+    * User Stories
+    * Lean Canvas
+
+* Matthew Caponigro
+    * User Flow
+    * User Stories
+
 ## Technologies
 * HTML
 * CSS
@@ -37,21 +52,23 @@ This project was a collaboration by:
 * MySQL
 
 ## File List
-127_0_0_1.sql           SQL file containing database used
-about.php               PHP file for "about" page
-AMTCMap.pdf             PDF file of campus map, used in about.php
-banner.png              Background image for header
-btc-logo                College logo used in navbar
-calendar-tile           Background image for calendar items in events sidebar
-enrollment.php          PHP file for "enrollment" page
-favicon.ico             BTC logo as a favicon
-footer.php              PHP include file for footer
-header.php              PHP include file for header
-index.php               PHP file for home page
-itcoursecalendar.xlsx   Excel spreadsheet containing 2018-2019 course calendar
-main.css                Main stylesheet
-programs.php            PHP file for "flex programs & classes" page
-readme                  This file
+| File                  | Description                                               |
+| -----------           | -----------                                               |
+| 127_0_0_1.sql         | SQL file containing database used                         |
+| about.php             | PHP file for "about" page                                 |
+| AMTCMap.pdf           | PDF file of campus map, used in about.php                 |
+| banner.png            | Background image for header                               |
+| btc-logo.png          | College logo used in navbar                               |
+| calendar-tile.png     | Background image for calendar items in events sidebar     |
+| enrollment.php        | PHP file for "enrollment" page                            |
+| favicon.ico           | BTC logo as a favicon                                     |
+| footer.php            | PHP include file for footer                               |
+| header.php            | PHP include file for header                               |
+| index.php             | PHP file for home page                                    |
+| itcoursecalendar.xlsx | Excel spreadsheet containing 2018-2019 course calendar    |
+| main.css              | Stylesheet                                                |
+| programs.php          | PHP file for "flex programs & classes" page               |
+| readme.md             | This file                                                 |
 
 ## To-Do
 * Update content based on what instructors want

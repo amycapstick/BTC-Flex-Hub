@@ -1,0 +1,283 @@
+body {
+    font-family: 'Cabin', Arial, sans-serif;
+    background-color: #FFF;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+    color: #FFF;
+    background-color: #00529F;
+    padding: 0.5em;
+}
+.top-nav a {
+    color: #FFF;
+    text-decoration: underline;
+}
+.top-nav a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+.top-nav button {
+    color: #FFF;
+    background-color: #B50900;
+}
+
+.top-nav button:hover {
+    color: #FFF;
+    background-color: #A31912;
+}
+
+/* Banner */
+#banner {
+    background-image: url('images/banner.png');
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    min-height: 12em;
+    padding-left: 5%;
+}
+
+#banner-text {
+    flex: 70%;
+    margin-top: 10%;
+    padding-bottom: 2em;
+ }
+
+#banner-text h1{
+    color: #FFF;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+
+#banner-text h2{
+    color: #FFF;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#banner-search {
+    flex: 30%;
+    margin-top: 5%;
+}
+
+#banner-search button {
+    background: #EEE;
+    color: #00529F;
+    font-size: 1em;
+    width: 10%;
+    height: 2em;
+    padding-top: 0.3em;
+    padding-bottom: 1.7em;
+    border: 1px solid #EEE;
+}
+#banner-search input[type=text]{
+    float: left;
+    display: block;
+    text-align: left;
+    width: 70%;
+    height: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+/* Main Navigation */
+nav {
+    color: #000;
+    font-size: 1.2em;
+    background-color: #EEE;
+    text-transform: uppercase;
+    max-height: 3em;
+}
+
+nav img {
+    padding: 1em;
+}
+
+nav a{
+    color: #000;
+}
+
+nav a:hover {
+    color: #00529F;
+}
+
+nav li, nav span {
+    margin-right: 2em;
+}
+
+/* Footer */
+footer {
+    color: #FFF;
+    background-color: #00529F;
+    padding: 2% 15%;
+}
+
+footer h1 {
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+footer h2 {
+    color: #FFF;
+    font-size: 1em;
+}
+
+#footer-middle{
+    text-align: center;
+}
+
+.socialmedia {
+    font-size: 2.5em;
+
+}
+
+.socialmedia a{
+    color: #FFF;
+    padding:  0.125em;
+}
+
+.socialmedia a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.contact a {
+    padding: 0.5em;
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    padding: 0.5em;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#footer-search {
+    padding-left: 15%;
+}
+#footer-search button {
+    background: #EEE;
+    color: #00529F;
+    font-size: 1em;
+    width: 10%;
+    height: 2em;
+    padding-top: 0.3em;
+    padding-bottom: 1.7em;
+    border: 1px solid #EEE;
+}
+#footer-search input[type=text]{
+    float: left;
+    display: block;
+    text-align: left;
+    width: 70%;
+    height: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+/* Homepage Main Content*/
+main {
+    padding: 2%;
+    background-color: #FFF;
+    color: #000;
+}
+
+/* Announcements */
+main .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: stretch;
+    color: black;
+
+}
+
+main .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 0.5em 0.5em 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 0.3125em; /* 5px rounded corners */
+    margin-bottom: 0.625em;
+    background-color: #EEE;
+    width: 100%;
+  }
+
+main .card h3 {
+    font-size: 1.25em;
+}
+
+main .card h5{
+    font-size: 0.75em;
+}
+  
+  /* On mouse-over, add a deeper shadow */
+main .card:hover {
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+main .container {
+    padding: 0.625em 1em;
+}
+/* About Page */
+
+#questions {
+    background-color: red;
+}
+
+
+/* Homepage Calendar */
+#events {
+    color: #000;
+    background-color: #FFFCE0;
+}
+
+#events h1 {
+    background-color: #FFCC66;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.calendar {
+    padding: 0 2em;
+}
+
+.calendar-date {
+    background-image: url('images/calendar-tile.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 0 0 5em;
+    height: 5.625em;
+    line-height: 1;
+    padding: 2.25em .25em .25em;
+    text-align: center;
+}
+
+.calendar-month {
+    font-size: .75em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.calendar-day {
+    font-size: 1.5em;
+    margin-top: .1875em;
+    font-weight: bold;
+}
+
+.calendar-details {
+    font-size: 1.125em;
+    margin-top: 1.25em;
+}

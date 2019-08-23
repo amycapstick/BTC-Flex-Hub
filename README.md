@@ -5,6 +5,7 @@
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [File List](#file-list)
+* [Screenshots](#screenshots)
 * [To-Do](#to-do)
 * [Status](#status)
 
@@ -77,6 +78,11 @@ The site can be found at:
 | programs.php          | PHP file for "flex programs & classes" page               |
 | readme.md             | This file                                                 |
 
+## Screenshots
+![Homepage](screenshots/homescreenshot.png?raw=true "Home Page")
+![About](screenshots/aboutscreenshot.png?raw=true "About Page")
+![Enrollment](screenshots/enrollmentscreenshot.png?raw=true "Enrollment Page")
+
 ## To-Do
 * Update content based on what instructors want
 * Connect to staff site with shared database
@@ -87,4 +93,5 @@ The site can be found at:
 
 ## Status
 Project is: _Work in progress_
+
 The project will be continued by future classes.

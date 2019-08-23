@@ -29,14 +29,21 @@ This project was a collaboration by:
 * [Brody Brown](https://github.com/Bbrown41)
 * Matthew Caponigro
 
+The site can be found at:
+[http://btc-techgeeks.com/flexstudent/index.php](http://btc-techgeeks.com/flexstudent/index.php)
+
 ### Roles:
 * Amy Capstick
-    * Front End (HTML, CSS, Bootstrap) 
+    * HTML
+    * CSS
+    * Bootstrap
+    * PHP 
     * Design
     * Mockups/Wireframes
 
 * Brody Brown
-    * Back End (PHP, Database)
+    * PHP
+    * Database
     * User Stories
     * Lean Canvas
 
@@ -54,7 +61,6 @@ This project was a collaboration by:
 ## File List
 | File                  | Description                                               |
 | -----------           | -----------                                               |
-| 127_0_0_1.sql         | SQL file containing database used                         |
 | about.php             | PHP file for "about" page                                 |
 | AMTCMap.pdf           | PDF file of campus map, used in about.php                 |
 | banner.png            | Background image for header                               |
@@ -64,6 +70,7 @@ This project was a collaboration by:
 | favicon.ico           | BTC logo as a favicon                                     |
 | footer.php            | PHP include file for footer                               |
 | header.php            | PHP include file for header                               |
+| hub.sql               | SQL file containing database used                         |
 | index.php             | PHP file for home page                                    |
 | itcoursecalendar.xlsx | Excel spreadsheet containing 2018-2019 course calendar    |
 | main.css              | Stylesheet                                                |
@@ -79,4 +86,5 @@ This project was a collaboration by:
 * Search functionality
 
 ## Status
-Project is: _in progress_
+Project is: _Work in progress_
+The project will be continued by future classes.

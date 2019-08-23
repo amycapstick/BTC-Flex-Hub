@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 07, 2019 at 11:07 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 5.6.40
+-- Generation Time: Aug 23, 2019 at 06:21 PM
+-- Server version: 8.0.17
+-- PHP Version: 7.1.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,8 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `hub`
 --
-CREATE DATABASE IF NOT EXISTS `hub` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `hub`;
 
 -- --------------------------------------------------------
 
@@ -44,10 +42,10 @@ CREATE TABLE `announcements` (
 -- Dumping data for table `announcements`
 --
 
-INSERT INTO `announcements` (`announcement_id`, `title`, `content`, `date_created`, `start_date`, `end_date`, `posted_by`) VALUES
-(1, 'Graduation', 'Graduation is coming soon.', '2019-05-02 13:09:26', '2019-05-12 09:00:00', '2019-05-12 17:00:00', 1),
-(2, 'The End of the Semester', 'The end of the semester is on May 12th. Make sure to have all assignments turned in by then, if not earlier per individual instructor\'s orders. Make sure any lockers are cleaned out as well if you have rented one.', '2019-05-02 15:02:43', NULL, '2019-05-13 00:00:00', 2),
-(3, 'Registering for Summer and Fall Classes', 'Registration for Summer and Fall Classes is nearly over. Please make sure to register for all classes by the required date. If you have not figured out what to take this summer or fall, please contact an adviser.', '2019-05-02 15:05:30', '2019-05-02 00:00:00', '2019-05-13 00:00:00', 1);
+INSERT INTO `announcements` (`announcement_id`, `title`, `content`, `start_date`, `end_date`, `posted_by`) VALUES
+(1, 'Graduation', 'Graduation is coming soon.', '2019-05-12 09:00:00', '2021-05-12 17:00:00', 1),
+(2, 'The End of the Semester', 'The end of the semester is on May 12th. Make sure to have all assignments turned in by then, if not earlier per individual instructor\'s orders. Make sure any lockers are cleaned out as well if you have rented one.', NULL, '2021-05-13 00:00:00', 2),
+(3, 'Registering for Summer and Fall Classes', 'Registration for Summer and Fall Classes is nearly over. Please make sure to register for all classes by the required date. If you have not figured out what to take this summer or fall, please contact an adviser.', '2019-05-02 00:00:00', '2021-05-13 00:00:00', 1);
 
 -- --------------------------------------------------------
 
